@@ -2,6 +2,7 @@
   .title {
     color: #0d0d0d;
     text-align: center;
+    line-height: 36px;
     margin-bottom: 70px;
   }
   &__item {
@@ -17,23 +18,26 @@
     }
   }
   &__descr {
-    padding: 0 90px 0 10px;
+    padding: 0 50px 0 5px;
     span {
       display: block;
       margin: 16px 0 24px 0;
       font-size: 14px;
       font-weight: 300;
+      line-height: 16px;
       color: #646464;
     }
   }
   &__author {
     font-size: 18px;
     font-weight: 700;
+    line-height: 20px;
     color: #0d0d0d;
   }
   &__comment {
     font-size: 16px;
     font-weight: 400;
+    line-height: 20px;
     color: #0d0d0d;
   }
 }
