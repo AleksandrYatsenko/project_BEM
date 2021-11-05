@@ -143,6 +143,17 @@
     font-size: 28px;
     margin-bottom: 40px;
   } 
+
+  .consultation {
+    min-height: 510px;
+    &__descr,
+    .title {
+      text-align: center;
+    }
+    .feed-form {
+      margin: 0 auto;
+    }
+  }
   
   .catalog {
     .title  {
@@ -233,7 +244,7 @@
   }
   .consultation {
     padding: 30px 0 25px 0;
-    min-height: 560px;
+    min-height: 500px;
     .container {
       padding: 0 10px;
     }
