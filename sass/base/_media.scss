@@ -51,6 +51,9 @@
 @media (max-width: 767px) {
   .header {
     justify-content: space-around;
+    &__phone {
+      font-size: 16px;
+    }
   }
   .promo {
     min-height: 610px;
@@ -86,6 +89,9 @@
     .title {
       font-size: 26px;
     }
+  }
+  .catalog__tab {
+    font-size: 16px;
   }
 }
 
@@ -131,6 +137,40 @@
   .promo__subheader {
     font-size: 20px;
     margin-top: 0;
+  }
+
+  .advantages__header {
+    font-size: 28px;
+    margin-bottom: 40px;
+  } 
+  
+  .catalog {
+    .title  {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+    &__tab {
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+  .reviews {
+    .title  {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+    &__item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      img {
+        margin: 0;
+        margin-bottom: 20px;
+      }
+    }
+    &__descr {
+      padding: 0 5px;
+    }
   }
 }
 
