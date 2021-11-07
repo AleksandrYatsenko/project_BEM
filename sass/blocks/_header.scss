@@ -4,11 +4,13 @@
   align-items: center;
   &__logo {
     max-width: 250px;
+    margin: 0 5px;
     img {
       width: 100%;
     }
   }
   &__official {
+    margin: 0 5px;
     color: #fff;
     font-size: 12px;
     font-weight: 500;
