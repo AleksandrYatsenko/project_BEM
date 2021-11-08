@@ -203,7 +203,6 @@
     &__logo {
       max-width: 200px;
       margin-right: 15px;
-      
     }
     &__contacts {
       align-items: center;
@@ -220,10 +219,12 @@
     &__header {
       font-size: 22px;
       line-height: 30px;
+      text-align: center;
     }
     &__subheader {
       font-size: 12px;
       margin-top: 0;
+      text-align: center;
     }
     &__icons {
       justify-content: center;
