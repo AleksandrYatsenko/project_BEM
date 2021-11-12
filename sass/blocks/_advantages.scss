@@ -34,6 +34,12 @@
       font-weight: 700;
     }
   }
+  &__icon_animated {
+    animation: heartbeat 1.5s ease infinite;
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
   &__link {
     color: #ff0000;
     font-size: 14px;
